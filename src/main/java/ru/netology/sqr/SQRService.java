@@ -1,7 +1,7 @@
 package ru.netology.sqr;
 
 public class SQRService {
-    public int squareAmount (int from, int to){
+    public int squaresInTheRange (int from, int to){
         int result = 0;
         for (int i = 10; i <= 99; i++){
             int square = i * i;

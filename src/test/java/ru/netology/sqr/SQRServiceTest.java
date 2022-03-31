@@ -20,7 +20,7 @@ class SQRServiceTest {
             "betweenBorders, 200, 300, 3"})
     void squareAmountTest(String testName, int from, int to, int expected) {
         SQRService prompt = new SQRService();
-        int actual = prompt.squareAmount(from, to);
+        int actual = prompt.squaresInTheRange(from, to);
         assertEquals(expected, actual);
     }
 }
